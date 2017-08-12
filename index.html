@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>GIPHY topics</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class ="text-center">Gifs are fun!</h1>
+        <h2 class = "instructions"> Click on a topic button to view 10 images! Click on an image to animate the image. Click again to make it stop.
+        <br>
+        <br>
+        <div id="topic-buttons"> </div>
+        <br> 
+        <br>
+        <div class="container" id="btn">
+            <form id="topic-form">
+                <label id="add" for="topic-input">Type in a topic and click "Submit" to make a new topic button!</label>
+                <input type="text" class="form-control" id="topic-input">
+                <br>
+                <br>
+            </form>
+            <button onclick="submitButtonClicked()" type="button" id="add-topic" class="btn btn-success">Submit</button>
+            <br>
+            <br>
+            <div id="topics"> </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></script>
+    <script src="assets/javascript/javascript.js"></script>
+</body>
+
+</html>

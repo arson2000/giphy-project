@@ -1,0 +1,26 @@
+*
+{
+	font-weight: bold;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #fff;
+}
+.text-center 
+{
+	font-size: 50px;
+}
+#add 
+{
+	font-size: 20px;
+}
+body 
+{
+	background-image: url("../images/background1.jpg")
+}
+.ratings
+{
+	font-size: 15px;
+}
+.instructions
+{
+	font-family: 15px;
+}
